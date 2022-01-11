@@ -58,7 +58,7 @@ app.route(prefix + '/assignments/')
 
 
 app.route(prefix + '/assignments/:id/edit')
-  .put(assignment.updateAssignment)
+  .put(assignment.updateAssignment);
 
 
 // On démarre le serveur
